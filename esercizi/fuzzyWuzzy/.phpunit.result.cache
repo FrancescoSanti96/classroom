@@ -1,0 +1,1 @@
+{"version":1,"defects":{"FuzzyWuzzy\\FuzzyWuzzyTest::testGetNumbers":3,"FuzzyWuzzy\\FuzzyWuzzyTest::testSay":4},"times":{"FuzzyWuzzy\\FuzzyWuzzyTest::testGetNumbers":0.029,"FuzzyWuzzy\\FuzzyWuzzyTest::testSay":0.002}}

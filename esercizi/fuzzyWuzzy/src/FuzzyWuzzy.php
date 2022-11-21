@@ -7,11 +7,13 @@ namespace FuzzyWuzzy;
 class FuzzyWuzzy
 {
     
-    public function getNumbers($numbers): array
+    public function getNumbers($numbers)
     {
+        $result = '';
         foreach ($numbers as &$value) {
-            echo say($value);
-        }
+            $result.=$this->say($value);
+            }
+        return $result;
     }
 
     public function say(int $number): string
